@@ -12,7 +12,7 @@
         
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
   
         <?php
@@ -23,7 +23,7 @@
         <?php $_POST['eleve_prenom']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
     </div>
             
@@ -31,7 +31,7 @@
         <?php $_POST['eleve_nom']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
             </div>
         
@@ -39,7 +39,7 @@
         <?php $_POST['eleve_memoire_sujet_num_version']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
             </div>
        
@@ -47,7 +47,7 @@
         <?php $_POST['eleve_session']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
             </div>
 
@@ -57,7 +57,7 @@
       <?php $_POST['eleve_memoire_sujet_titre']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
            </div>
      
@@ -65,7 +65,7 @@
         <?php $_POST['encadrant_proposition']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
             </div>
       
@@ -73,7 +73,7 @@
         <?php $_POST['eleve_problematique']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
             </div>
       
@@ -81,14 +81,14 @@
         <?php $_POST['eleve_deroulement']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
       
        <div class="eleve_contribution_ai">
        <?php $_POST['eleve_contribution_ai']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
            </div>
 
