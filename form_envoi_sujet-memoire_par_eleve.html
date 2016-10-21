@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr" />
+ <head>
+   <meta charset="utf-8" />
+   <title></title>
+ </head>
+ <body>
+
+
+  <form action="cible_sujet_memoire_eleve.php" method="post">
+  <p>
+      <!-- 1 -->
+      <div>
+      <input type="text" name="eleve_prenom" />
+      </div>
+      <!-- 2 -->
+      <div>
+      <input type="text" name="eleve_nom" />
+      </div>
+      <!-- 3 -->
+      <div>
+      <div class="promo">
+        <select name="eleve_promo">
+            <option value="eleve_promo1">Promotion n°1</option>
+            <option value="eleve_promo2">Promotion n°2</option>
+            <option value="eleve_promo3">Promotion n°3</option>
+            <option value="eleve_promo4">Promotion n°4</option>
+            <option value="eleve_promo5">Promotion n°5</option>
+            <option value="eleve_promo5">Promotion n°7</option>
+            <option value="eleve_promo5">Promotion n°8</option>
+            <option value="eleve_promo5">Promotion n°9</option>
+            <option value="eleve_promo5">Promotion n°10</option>
+        </select>
+      </div>
+      <!-- 4 -->
+      <div>
+      <input type="text" name="eleve_memoire_sujet_num_version" />
+      </div>
+      <!-- 5 -->
+      <div>
+      <select name="eleve_session">
+        <option value="choix1">Session 1 - septembre - avril</option>
+        <option value="choix1">Session 2 - avril - décembre</option>
+        <option value="choix1">Session 3 - janvier - septembre</option>
+      </select>
+      </div>
+      <!-- 6 -->
+      <div class="eleve_memoire_sujet_titre">
+      <textarea name="eleve_memoire_sujet_titre" rows="8" cols="45">
+        Votre titre de sujet ici.
+      </textarea>
+      </div>
+      <!-- 7 -->
+      <div class="encadrant">
+      <select name="encadrant_prenom_nom">
+        <option value="andrea-resmini">Andrea Resmini, université de Sologne occidentale</option>
+        <option value="benoit-habert">benoit-habert</option>
+        <option value="jean-michel-salaun">jean-michel-salaun</option>
+        <option value="jean-michel-salaun">jean-michel-salaun</option>
+      </select>
+      </div>
+      <!-- 8 -->
+      <div class="eleve_problematique">
+      <textarea name="eleve_memoire_sujet_problematique" rows="8" cols="45">
+        Votre problématique en 5 à 10 phrases.
+      </textarea>
+      </div>
+
+      <!-- 9 -->
+      <div class="eleve_deroulement">
+      <textarea name="eleve_memoire_sujet_deroulement_prevu" rows="8" cols="45">
+          déroulement prévu (4 à 6 grandes étapes)
+      </textarea>
+      </div>
+
+      <!-- 10 -->
+      <div class="eleve_contribution_ai">
+      <textarea name="eleve_memoire_sujet_contribution_ai" rows="10" cols="45">
+        Votre argumentaire ici.
+      </div>
+
+      <!-- 11 . VALIDATION -->
+      <div>
+      <input type="submit" value="Valider" />
+      </div>
+
+  </p>
+  </form>
+
+ </body>
+</html>
