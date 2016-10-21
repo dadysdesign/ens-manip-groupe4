@@ -6,16 +6,10 @@
         <link rel=stylesheet type="text/css" href="style_gestion_memoire.css">
     </head>
     <body>
+        
         <h1>Récapitulatif de proposition de sujet de mémoire</h1>
-        
-        
-        
-        <!-- Radio buttons -->
-        <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
-        <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
-        <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
   
-        <?php
+        
         // put your code here
         // identification starts here 
         
@@ -91,7 +85,5 @@
         <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
            </div>
-
-        ?>
     </body>
 </html>
