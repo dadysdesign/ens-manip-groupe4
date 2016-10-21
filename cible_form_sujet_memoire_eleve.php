@@ -14,7 +14,7 @@
         $_POST['eleve_memoire_sujet_num_version'];
         $_POST['eleve_session'];
 
-        // intervention starts here
+        // supervisor intervention starts here
         $_POST['eleve_memoire_sujet_titre'];
         $_POST['encadrant_proposition'];
         $_POST['eleve_problematique'];
