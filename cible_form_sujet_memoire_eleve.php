@@ -10,9 +10,9 @@
         
         
         
-        <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Oui</label>
-        <input type="radio" name="a reformuler" value="non" id="non" /> <label for="non">Non</label>
-        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Non</label>
+        <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
+        <input type="radio" name="refusé" value="non" id="non" /> <label for="non">Refusé</label>
+        <input type="radio" name="a reformuler" value="non" id="non" /> <label for="non">À reformuler</label>
   
         <?php
         // put your code here
