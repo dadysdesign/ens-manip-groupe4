@@ -13,13 +13,13 @@
         // put your code here
         // identification starts here 
         
-        <div class="eleve_prenom">
+        <div class="eleve_prenom"> 
         <?php $_POST['eleve_prenom']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
         <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
-    </div>
+            </div>
             
         <div class="eleve_nom">
         <?php $_POST['eleve_nom']; ?>
@@ -77,6 +77,7 @@
         <input type="radio" name="valide" value="oui" id="oui" checked="checked" /> <label for="oui">Validé</label>
         <input type="radio" name="refuse" value="non" id="non" /> <label for="non">Refusé</label>
         <input type="radio" name="a reformuler" value="non" id="non" /> <label for="reform">À reformuler</label>
+            </div>
       
        <div class="eleve_contribution_ai">
        <?php $_POST['eleve_contribution_ai']; ?>
