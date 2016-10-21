@@ -8,6 +8,7 @@
         <h1>Récapitulatif de proposition de sujet de mémoire</h1>
         <?php
         // put your code here
+        // identification starts here
         $_POST['eleve_prenom'];
         $_POST['eleve_nom'];
         $_POST['eleve_memoire_sujet_num_version'];
