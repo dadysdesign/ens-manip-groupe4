@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Reception sujet mémoire</title>
+        <link rel=stylesheet type="text/css" href="style_gestion_memoire.css">
     </head>
     <body>
         <h1>Récapitulatif de proposition de sujet de mémoire</h1>
