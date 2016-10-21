@@ -17,11 +17,6 @@
         $_POST['eleve_problematique'];
         $_POST['eleve_deroulement'];
         $_POST['eleve_contribution_ai'];
-        $_POST['Valider'];
-
-
-//        $_POST['eleve_prenom'];
-//        $_POST['eleve_prenom'];
 
         ?>
     </body>
