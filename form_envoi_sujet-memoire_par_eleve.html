@@ -8,18 +8,18 @@
 
 
   <form action="cible_form_sujet_memoire_eleve.php" method="post">
-  <p>
+
       <!-- 1 -->
-      <div>
+      <div>PRENOM :
       <input type="text" name="eleve_prenom" />
       </div>
       <!-- 2 -->
-      <div>
+      <div>NOM :
       <input type="text" name="eleve_nom" />
       </div>
       <!-- 3 -->
-      <div>
-      <div class="promo">
+
+      <div class="promo">PROMO :
         <select name="eleve_promo">
             <option value="eleve_promo1">Promotion n°1</option>
             <option value="eleve_promo2">Promotion n°2</option>
@@ -33,34 +33,34 @@
         </select>
       </div>
       <!-- 4 -->
-      <div>
+      <div>SUJET NUMERO DE VERSION :
       <input type="text" name="eleve_memoire_sujet_num_version" />
       </div>
       <!-- 5 -->
-      <div>
+      <div class="eleve_session">
+        SESSION :
       <select name="eleve_session">
         <option value="choix1">Session 1 - septembre - avril</option>
         <option value="choix1">Session 2 - avril - décembre</option>
         <option value="choix1">Session 3 - janvier - septembre</option>
       </select>
-      </div>
+    </div>
       <!-- 6 -->
       <div class="eleve_memoire_sujet_titre">
+        SUJET TITRE :
       <textarea name="eleve_memoire_sujet_titre" rows="8" cols="45">
         Votre titre de sujet ici.
       </textarea>
       </div>
       <!-- 7 -->
        <div class="encadrant_proposition">
-       <!-- 4 -->encadrant_proposition
+         ENCADRANT PROPOSE :
        <input type="text" name="encadrant_prenom_nom" />
-     </div>
-             
-   
-  
       </div>
+
       <!-- 8 -->
       <div class="eleve_problematique">
+        PROBLEMATIQUE :
       <textarea name="eleve_memoire_sujet_problematique" rows="8" cols="45">
         Votre problématique en 5 à 10 phrases.
       </textarea>
@@ -68,6 +68,7 @@
 
       <!-- 9 -->
       <div class="eleve_deroulement">
+        DEROULEMENT :
       <textarea name="eleve_memoire_sujet_deroulement_prevu" rows="8" cols="45">
           déroulement prévu (4 à 6 grandes étapes)
       </textarea>
@@ -75,6 +76,7 @@
 
       <!-- 10 -->
       <div class="eleve_contribution_ai">
+        ARGUMENTAIRE AI :
       <textarea name="eleve_memoire_sujet_contribution_ai" rows="10" cols="45">
         Votre argumentaire ici.
       </div>
@@ -84,7 +86,7 @@
       <input type="submit" value="Valider" />
       </div>
 
-  </p>
+
   </form>
 
  </body>
