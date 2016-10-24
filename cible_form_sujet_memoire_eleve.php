@@ -9,6 +9,42 @@
 
         <h1>Récapitulatif de proposition de sujet de mémoire</h1>
 
+        <?php
+               require_once("connexion.php") ;
+
+               // Etablissement de la connexion
+               $connexion = faitConnexionPDO("localhost", "memoires", "root", donneMDPRoot()) ;
+
+               // Récupération de l'environnement transmis par le formulaire en mode POST
+               // $id = $_POST['idHaiku'] ;
+               $eleve_memoire_sujet_num_version = $_POST['eleve_memoire_sujet_num_version']; ;
+               $eleve_session = $_POST['eleve_session'] ;
+               $eleve_memoire_sujet_titre = $_POST['eleve_memoire_sujet_titre'] ;
+               $encadrant_prenom_nom = $_POST['encadrant_prenom_nom'] ;
+               // $eleve_problematique = $_POST['eleve_problematique'] ;
+               // $eleve_deroulement = $_POST['eleve_deroulement'] ;
+               $eleve_memoire_sujet_contribution_ai = $_POST['eleve_memoire_sujet_contribution_ai'] ;
+
+               // $requete = "INSERT INTO proposition_sujet (idHaiku, initiales, commentaire) VALUES ('$eleve_memoire_sujet_num_version', '$eleve_session', '$eleve_memoire_sujet_titre', '$encadrant_proposition', '$eleve_problematique', '$eleve_deroulement', '$eleve_contribution_ai')" ;
+               $requete = "INSERT INTO proposition_sujet (num_version, session, nom, encadrant, apport_ai) VALUES ('$eleve_memoire_sujet_num_version', '$eleve_session', '$eleve_memoire_sujet_titre', '$encadrant_prenom_nom', '$eleve_memoire_sujet_contribution_ai')" ;
+
+               // Pour information
+               echo "$requete<br />" ;
+               // Exécution de la requête côté serveur de BD sans résultat important du côté PHP
+               $connexion->exec($requete) ;
+               // On récupère les informations sur les erreurs éventuelles
+               $infosErreur = $connexion->errorInfo();
+               // Code de succès ou de succès avec avertissement
+               if ($infosErreur[0] === '00000' || $infosErreur[0] === '01000') {
+               }
+               else {
+               	die("Erreur MySQL : " . $infosErreur[2]) ;
+               }
+
+               // Fermeture de la connexion
+               $connexion = null ;
+        ?>
+
 <form action="cible_sujet_memoire_eleve.php" method="post">
     <!--    // put your code here
         // identification starts here -->
@@ -25,7 +61,7 @@
         </div>
 
         <div class="eleve_memoire_sujet_num_version">
-          VERSION MEMOIRE : 
+          VERSION MEMOIRE :
         <?php echo $_POST['eleve_memoire_sujet_num_version']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_memoire_sujet_num_version_valide" value="oui_eleve_memoire_sujet_num_version" id="oui_eleve_memoire_sujet_num_version" checked="checked" /> <label for="oui">Validé</label>
@@ -37,7 +73,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="eleve_session">
-          SESSION MEMOIRE : 
+          SESSION MEMOIRE :
         <?php echo $_POST['eleve_session']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_session_valide" value="oui_eleve_session" id="oui_eleve_session" checked="checked" /> <label for="oui">Validé</label>
@@ -74,7 +110,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="eleve_problematique">
-          PROBLEMATIQUE : 
+          PROBLEMATIQUE :
         <?php echo $_POST['eleve_problematique']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_problematique_valide" value="oui_eleve_problematique" id="oui_eleve_problematique" checked="checked" /> <label for="oui">Validé</label>
