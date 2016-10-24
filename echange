@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Exemple échange avec serveur de BD</title>
+        <title>Exemple échange avec le serveur de BDD </title>
 <style>
 </style>
     </head>
     <body>
-        <h1>Exemple d'échange d'un serveur web avec un serveur de BD</h1>
+        <h1>Exemple d'échange d'un serveur web</h1>
 <?php
        // Regarder les endroits marqués VERIFICATION et MODIFICATION
        // Vérifiez et modifiez et essayez.
