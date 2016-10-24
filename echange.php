@@ -45,7 +45,7 @@
        $connexion = faitConnexionPDO("localhost", "haikus", "root", donneMDPRoot()) ; 
         
        
-       // MODIFICATION : la requête à changer et à tester
+       <!// MODIFICATION : la requête à changer et à tester
        $requete = "SELECT * FROM haikuAuteurId ORDER BY RAND() LIMIT 10" ; 
        $resultat = $connexion->query($requete) ; 
        // On récupère les informations sur les erreurs éventuelles
