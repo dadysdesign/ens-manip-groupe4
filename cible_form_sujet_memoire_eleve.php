@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Reception sujet mémoire</title>
+        <title>Réception sujet mémoire</title>
         <link rel=stylesheet type="text/css" href="style_gestion_memoire.css">
     </head>
     <body>
@@ -14,14 +14,18 @@
         // identification starts here -->
 
         <div class="eleve_prenom">
+          PRENOM ELEVE :
         <?php echo $_POST['eleve_prenom']; ?>
         </div>
 
         <div class="eleve_nom">
+          NOM ELEVE :
+
         <?php echo $_POST['eleve_nom']; ?>
         </div>
 
         <div class="eleve_memoire_sujet_num_version">
+          VERSION MEMOIRE : 
         <?php echo $_POST['eleve_memoire_sujet_num_version']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_memoire_sujet_num_version_valide" value="oui_eleve_memoire_sujet_num_version" id="oui_eleve_memoire_sujet_num_version" checked="checked" /> <label for="oui">Validé</label>
@@ -33,6 +37,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="eleve_session">
+          SESSION MEMOIRE : 
         <?php echo $_POST['eleve_session']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_session_valide" value="oui_eleve_session" id="oui_eleve_session" checked="checked" /> <label for="oui">Validé</label>
@@ -45,6 +50,7 @@ Remarques de l'enseignant
       <!--  // intervention starts here -->
 
        <div class="eleve_memoire_sujet_titre">
+         TITRE SUJET MEMOIRE
       <?php echo $_POST['eleve_memoire_sujet_titre']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_memoire_sujet_titre_valide" value="oui_eleve_memoire_sujet_titre" id="oui_eleve_memoire_sujet_titre" checked="checked" /> <label for="oui">Validé</label>
@@ -56,6 +62,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="encadrant_proposition">
+          ENCADRANT PROPOSE
         <?php echo $_POST['encadrant_proposition']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="encadrant_proposition_valide" value="oui_encadrant_proposition" id="oui_encadrant_proposition" checked="checked" /> <label for="oui">Validé</label>
@@ -67,6 +74,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="eleve_problematique">
+          PROBLEMATIQUE : 
         <?php echo $_POST['eleve_problematique']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_problematique_valide" value="oui_eleve_problematique" id="oui_eleve_problematique" checked="checked" /> <label for="oui">Validé</label>
@@ -78,6 +86,7 @@ Remarques de l'enseignant
     </div>
 
         <div class="eleve_deroulement">
+          DEROULEMENT :
         <?php echo $_POST['eleve_deroulement']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_deroulement_valide" value="oui_eleve_deroulement" id="oui_eleve_deroulement" checked="checked" /> <label for="oui">Validé</label>
@@ -89,6 +98,7 @@ Remarques de l'enseignant
     </div>
 
        <div class="eleve_contribution_ai">
+         ARGUMENTAIRE CONTRIBUTION à l'AI
        <?php echo $_POST['eleve_contribution_ai']; ?>
         <!-- Radio buttons -->
         <input type="radio" name="eleve_contribution_ai_valide" value="oui_eleve_contribution_ai" id="oui_eleve_contribution_ai" checked="checked_" /> <label for="oui">Validé</label>
