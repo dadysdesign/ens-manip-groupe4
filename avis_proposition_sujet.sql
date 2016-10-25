@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Oct 25, 2016 at 10:56 AM
+-- Generation Time: Oct 25, 2016 at 11:04 AM
 -- Server version: 5.5.42
 -- PHP Version: 7.0.8
 
@@ -32,7 +32,8 @@ CREATE TABLE `avis_proposition_sujet` (
   `avis_ps_statut_validation` varchar(256) NOT NULL,
   `id_proposition_sujet` int(11) NOT NULL,
   `avis_ps_deroulement` text NOT NULL,
-  `avis_ps_problematique` text NOT NULL
+  `avis_ps_problematique` text NOT NULL,
+  `avis_ps_valide` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
