@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Oct 25, 2016 at 11:04 AM
+-- Generation Time: Oct 25, 2016 at 11:17 AM
 -- Server version: 5.5.42
 -- PHP Version: 7.0.8
 
@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `avis_proposition_sujet` (
-  `id_avis_ps_bureau` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `avis_ps_nom_bureau` varchar(256) NOT NULL,
   `avis_ps_sujet` varchar(256) NOT NULL,
   `avis_ps_encadrant` varchar(256) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `avis_proposition_sujet` (
 -- Indexes for table `avis_proposition_sujet`
 --
 ALTER TABLE `avis_proposition_sujet`
-  ADD PRIMARY KEY (`id_avis_ps_bureau`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -54,4 +54,4 @@ ALTER TABLE `avis_proposition_sujet`
 -- AUTO_INCREMENT for table `avis_proposition_sujet`
 --
 ALTER TABLE `avis_proposition_sujet`
-  MODIFY `id_avis_ps_bureau` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
