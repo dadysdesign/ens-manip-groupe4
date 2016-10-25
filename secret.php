@@ -12,7 +12,7 @@
     // On affiche les codes
     ?>
         <h1>Voici le lien  :</h1>
-        <p><strong>   </strong></p>   
+        <p><strong> https://localhost/Manipwww/gestion-memoire-archinfo/cible_form_sujet_memoire_eleve.php</strong></p>   
         
      
         <?php
