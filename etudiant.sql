@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Oct 25, 2016 at 11:45 AM
+-- Generation Time: Oct 25, 2016 at 12:36 PM
 -- Server version: 5.5.42
 -- PHP Version: 7.0.8
 
@@ -24,8 +24,8 @@ CREATE TABLE `etudiant` (
   `id` int(11) NOT NULL,
   `etudiant_nom` varchar(256) NOT NULL,
   `etudiant_prenom` varchar(256) NOT NULL,
-  `etudiant_pseudo` text NOT NULL,
-  `etudiant_mdp` text NOT NULL
+  `etudiant_pseudo` varchar(256) NOT NULL,
+  `etudiant_mdp` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
