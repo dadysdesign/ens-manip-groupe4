@@ -7,12 +7,12 @@
     <body>
     
         <?php
-    if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "kangourou") // Si le mot de passe est bon
+    if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "archinfo") // Si le mot de passe est bon
     {
     // On affiche les codes
     ?>
-        <h1>Voici les codes d'accès :</h1>
-        <p><strong>CRD5-GTFT-CK65-JOPM-V29N-24G1-HH28-LLFV</strong></p>   
+        <h1>Voici le lien  :</h1>
+        <p><strong>   </strong></p>   
         
      
         <?php
