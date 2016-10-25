@@ -8,8 +8,8 @@
         <p>Veuillez entrer votre pseudo et votre mot de passe pour accéder à la page de proposition de sujet :</p>
         <form action="secret.php" method="post">
             <p>
-            <input type="pseudo_etudiant" name="pseudo_etudiant" />
-            <input type="password" name="mot_de_passe" />
+            <input type="text" placeholder="Pseudo" name="pseudo_etudiant" required />
+            <input type="password" placeholder="Mot de passe" name="mot_de_passe" required />
             <input type="submit" value="Valider" />
             </p>
         </form>
